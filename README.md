@@ -1,4 +1,4 @@
-# Gain Module (AXI-Stream) on FPGA
+# Audio Gain Module (AXI-Stream) on FPGA
 
 This repository provides a **reference RTL implementation** of a
 **stereo fixed-point gain stage**
@@ -8,6 +8,14 @@ Target platform: **AMD Kria KV260**
 Focus: **RTL architecture, fixed-point DSP decisions, and AXI correctness**
 
 The module is designed for continuous real-time audio streaming, not block-based or offline processing.
+
+---
+
+## Motivation
+
+This project was developed as part of a broader self-directed exploration of FPGA-based audio DSP. Although gain adjustment is mathematically simple, its hardware implementation provides a useful foundation for studying fixed-point multiplication, scaling, saturation, and real-time streaming interfaces.
+
+The project represents one of the smaller building blocks used to develop a practical understanding of how basic DSP operations behave when translated into RTL.
 
 ---
 
